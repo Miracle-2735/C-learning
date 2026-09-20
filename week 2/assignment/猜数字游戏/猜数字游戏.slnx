@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="猜数字游戏.vcxproj" Id="25b2c648-5acb-4b79-9f43-3dc40e7af9db" />
+</Solution>

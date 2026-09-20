@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="判断回文数.vcxproj" Id="ad5e91c9-06d2-498a-9cf6-0ce4972fd26d" />
+</Solution>

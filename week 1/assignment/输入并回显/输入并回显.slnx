@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="输入并回显/输入并回显.vcxproj" Id="b875a348-b96b-45d4-9aa1-0b68cb732079" />
+</Solution>

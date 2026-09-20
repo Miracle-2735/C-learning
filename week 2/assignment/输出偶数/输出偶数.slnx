@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="输出偶数.vcxproj" Id="3bb0939e-ae08-472a-88cf-074ac2f11f3d" />
+</Solution>

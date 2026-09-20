@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u674E\u6676\u6676\\Desktop\\Study-C\\week 1\\assignment\\\u6210\u7EE9\u7B49\u7EA7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F59E48C-5451-4AB1-AB28-DF36AEAF8439}|\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7.vcxproj|C:\\Users\\\u674E\u6676\u6676\\Desktop\\Study-C\\week 1\\assignment\\\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F59E48C-5451-4AB1-AB28-DF36AEAF8439}|\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7.vcxproj|solutionrelative:\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6210\u7EE9\u7B49\u7EA7.c",
+              "DocumentMoniker": "C:\\Users\\\u674E\u6676\u6676\\Desktop\\Study-C\\week 1\\assignment\\\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7.c",
+              "RelativeDocumentMoniker": "\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7.c",
+              "ToolTip": "C:\\Users\\\u674E\u6676\u6676\\Desktop\\Study-C\\week 1\\assignment\\\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7.c",
+              "RelativeToolTip": "\u6210\u7EE9\u7B49\u7EA7\\\u6210\u7EE9\u7B49\u7EA7.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-09-18T13:56:57.014Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

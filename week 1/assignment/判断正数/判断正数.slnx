@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="判断正数/判断正数.vcxproj" Id="6dafa7ca-c2c2-4863-a1ac-7889390a2ae3" />
+</Solution>

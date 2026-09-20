@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="九九乘法表（上三角）.vcxproj" Id="fc609c88-9536-40a4-9260-10b45f409078" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="及格判断/及格判断.vcxproj" Id="60a020dc-a22c-4ba8-8753-8b12fd6636da" />
+</Solution>

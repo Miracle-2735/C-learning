@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="格式化输出/格式化输出.vcxproj" Id="ba546558-5954-4d50-a221-b0e994c71a07" />
+</Solution>

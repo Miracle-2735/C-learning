@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="打印信息/打印信息.vcxproj" Id="1f8d3423-3dde-4687-98c9-43eb1121c81c" />
+</Solution>

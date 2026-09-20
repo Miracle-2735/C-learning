@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="成绩等级/成绩等级.vcxproj" Id="4f59e48c-5451-4ab1-ab28-df36aeaf8439" />
+</Solution>

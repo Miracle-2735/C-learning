@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="三个数求最大值/三个数求最大值.vcxproj" Id="d7b46e55-fbdc-47e2-acfe-8650931809b5" />
+</Solution>

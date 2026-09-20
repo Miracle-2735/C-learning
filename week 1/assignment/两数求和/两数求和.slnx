@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="两数求和/两数求和.vcxproj" Id="d38f1505-c878-4a4c-965e-93d6100a3a85" />
+</Solution>

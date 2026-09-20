@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="四则运算/四则运算.vcxproj" Id="02ddfa14-d09f-4aa3-b6af-519278095a4c" />
+</Solution>

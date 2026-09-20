@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="密码验证.vcxproj" Id="c83ddb19-bda0-4671-8d0c-4757f12a46b4" />
+</Solution>
