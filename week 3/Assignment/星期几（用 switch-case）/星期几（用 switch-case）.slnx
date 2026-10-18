@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="星期几（用 switch-case）/星期几（用 switch-case）.vcxproj" />
+</Solution>

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="C语言的基本程序框架/C语言的基本程序框架.vcxproj" />
+</Solution>
