@@ -9,6 +9,6 @@ int main(void)
         cnt++;
     }
     printf("分配了%d00MB的空间\n", cnt);
-    getchar();   // 卡住，别急着退出
+
     return 0;
 }

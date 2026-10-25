@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="动态内存分配.c">
+    <ClCompile Include="PC可分配内存.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
