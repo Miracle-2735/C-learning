@@ -1,7 +1,0 @@
-<Solution>
-  <Configurations>
-    <Platform Name="x64" />
-    <Platform Name="x86" />
-  </Configurations>
-  <Project Path="动态内存分配/动态内存分配.vcxproj" Id="e3ba5f20-43c2-4fbd-89c5-c2d08e7cc697" />
-</Solution>
