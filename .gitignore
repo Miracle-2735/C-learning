@@ -1,10 +1,36 @@
+# Visual Studio
 .vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Build outputs
+[Dd]ebug/
+[Rr]elease/
 x64/
 x86/
-Debug/
-Release/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Compiled files
 *.obj
 *.exe
 *.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
 *.tlog
 *.lastbuildstate
+*.idb
+*.iobj
+*.ipdb
+
+# Other
+*.VC.db
+*.opendb/
+ipch/
