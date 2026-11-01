@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="枚举 GPIO 模式/枚举 GPIO 模式.vcxproj" Id="4bb2a23a-a7de-41d4-b65f-4df469eb6dd5" />
+</Solution>
