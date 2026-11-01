@@ -1,7 +1,7 @@
-/*四则运算
-* 输入两个整数 a 和 b，输出它们的和、差、积、商。注意商如果除不尽要保留小数。
-*/
-#define _CRT_SECURE_NO_WARNINGS
+/* 四则运算
+ * 输入两个整数 a 和 b，输出和、差、积、商；商除不尽时保留两位小数
+ */
+#define _CRT_SECURE_NO_WARNINGS   // 关闭 VS 对 scanf 等函数的安全警告
 #include <stdio.h>
 
 int main(void)
@@ -12,11 +12,17 @@ int main(void)
 	printf("请输入整数b：");
 	scanf("%d", &b);
 
+	// 除数为 0 会导致程序崩溃，先拦截
+	if (b == 0) {
+		printf("错误：除数 b 不能为 0。\n");
+		return 1;
+	}
+
 	printf("a+b=%d\n", a + b);
 	printf("a-b=%d\n", a - b);
 	printf("a*b=%d\n", a * b);
-	printf("a/b=%.2lf\n", 1.0 * a / b);  
-	//1.0 * a → 把 a 从 int 变成 double（关键一步！）/ b→ 除以 b，此时 b 也自动提升成 double，小数就保住了
+	// 1.0 * a 先把 a 提升为 double，再除以 b，小数才不会被砍掉
+	printf("a/b=%.2lf\n", 1.0 * a / b);
 
 	return 0;
 }

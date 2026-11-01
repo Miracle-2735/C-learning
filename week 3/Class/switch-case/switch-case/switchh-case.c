@@ -1,6 +1,10 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
+/* switch-case 课堂示例：根据输入数字输出问候语
+ * 注意：源文件名 switchh-case.c 多了一个 h（正确拼写是 switch-case）；
+ *       重命名会牵动 VS 工程文件引用，这里只补代码注释，不改文件名。
+ */
 int main()
 {
 	int type;

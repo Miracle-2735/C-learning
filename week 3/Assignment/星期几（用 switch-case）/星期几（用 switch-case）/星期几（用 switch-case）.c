@@ -1,7 +1,6 @@
-﻿/***星期几（用 switch-case）**
-输入一个 1-7 的数字，输出对应的星期：
-1 = 星期一，2 = 星期二...7 = 星期日。输入其他数字输出 "输入错误"。
-*/
+﻿/* 星期几（用 switch-case）
+ * 输入 1-7 的数字，输出对应星期；其他数字输出"输入错误"
+ */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
@@ -11,6 +10,8 @@ int main()
 	printf("请输入星期数（1-7）：");
 	scanf("%d", &day);
 
+	// switch 把 day 的值和各个 case 比较，匹配到哪个就执行哪个分支
+	// break 必不可少：防止执行完一个 case 后"穿透"到下一个 case 继续执行
 	switch (day) {
 	case 1:
 		printf("星期一\n");
@@ -33,8 +34,8 @@ int main()
 	case 7:
 		printf("星期日\n");
 		break;
-	default:
-		printf("输入错误");
+	default:   // 上面所有 case 都不匹配时走这里，相当于 else
+		printf("输入错误\n");
 		break;
 	}
 	return 0;

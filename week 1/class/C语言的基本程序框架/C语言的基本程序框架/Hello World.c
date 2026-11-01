@@ -1,11 +1,10 @@
-//#include 为C预处理指令
-//<stdio.h>:标准输入输出库的头文件
-//#include <stdio.h>，可以理解为一个人以include的方式调用翻开了<stdioh.h>这个电话簿（文件库）
-#include <stdio.h>          
+// #include 是 C 预处理指令，作用是把头文件的内容引入当前文件
+// <stdio.h> 是标准输入输出库头文件，使用 printf 必须包含它
+#include <stdio.h>
 
-int main()                     //main()是一个函数名；int表明main()函数返回一个整数
+int main()                     // main 是程序入口函数；int 表示函数结束后返回一个整数
 {
-	printf("Hello,World!\n");  //printf("");表示打印输出""里的字符
+	printf("Hello,World!\n");  // printf 负责打印输出，双引号内是要显示的内容；\n 表示换行
 
-	return 0;                  //表示结束，返回一个0给main()
+	return 0;                  // 返回 0 表示程序正常结束，把这个 0 交回给操作系统
 }

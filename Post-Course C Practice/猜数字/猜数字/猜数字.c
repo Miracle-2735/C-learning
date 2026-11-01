@@ -20,7 +20,7 @@
 
 int main()
 {
-    srand(time(0));           // 初始化随机数种子，整个程序只需要一次
+    srand((unsigned int)time(NULL));           // 初始化随机数种子，整个程序只需要一次
     char playAgain = 'y';     // 用字符记住用户要不要继续玩，先设成'y'让循环能开始
 
     // 外层循环：控制整个游戏玩几局

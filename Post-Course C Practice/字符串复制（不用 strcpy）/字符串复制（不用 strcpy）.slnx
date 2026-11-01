@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="字符串复制（不用 strcpy）/字符串复制（不用 strcpy）.vcxproj" Id="fcc36173-ce7c-46d0-ab66-b010600ead45" />
+</Solution>

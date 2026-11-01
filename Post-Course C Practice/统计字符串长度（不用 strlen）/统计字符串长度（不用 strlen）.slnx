@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="统计字符串长度（不用 strlen）/统计字符串长度（不用 strlen）.vcxproj" />
+</Solution>

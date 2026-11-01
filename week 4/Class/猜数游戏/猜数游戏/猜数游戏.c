@@ -5,7 +5,7 @@
 
 int main()
 {
-    srand(time(0));                                  // 用当前时间做种子，让每次运行随机数不一样
+    srand((unsigned int)time(NULL));                                  // 用当前时间做种子，让每次运行随机数不一样
     int target = rand() % 100 + 1;                   // 生成1~100的随机数（%100得到0~99，+1变成1~100）
     int guess = 0;                                   // 存放玩家每次猜的数
     int count = 0;                                   // 记录猜了多少次

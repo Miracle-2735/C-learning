@@ -1,7 +1,6 @@
-/***温度转换**
-*输入一个摄氏温度 C（小数），转换成华氏温度 F 输出。
-*F = C × 9 / 5 + 32
-*/
+/* 温度转换：输入摄氏温度 C，输出华氏温度 F
+ * 公式：F = C × 9 / 5 + 32
+ */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
@@ -12,7 +11,7 @@ int main()
 	scanf("%lf", &C);
 
 	double F = C * 9 / 5 + 32;
-	printf("转换成华氏温度为：%f", F);
+	printf("转换成华氏温度为：%.2f\n", F);   // %.2f 保留两位小数
 
 	return 0;
 }

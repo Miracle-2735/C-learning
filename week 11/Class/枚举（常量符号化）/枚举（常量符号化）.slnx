@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="枚举（常量符号化）/枚举（常量符号化）.vcxproj" />
+</Solution>

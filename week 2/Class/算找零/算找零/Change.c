@@ -3,25 +3,24 @@
 
 int main(void)
 {
-	/*const在这里为修饰符，意译为不变的
-	<修饰符> <数据类型> <变量名称>=<初始值>?常量
+	int amount = 0;   // 票面金额（用户输入）
+	int price = 0;    // 商品金额（用户输入）
+	int change = 0;   // 找零（注意拼写：change，不是 chage）
 
-	const int AMOUNT = 100;
-
-	*/
-	//<数据类型> <变量名称>?变量；
-	int amount = 100;
-	int price = 0;              //<数据类型> <变量名称>=<初始值>?初始化变量
-	
-	printf("请输入金额(元)：");
+	printf("请输入商品金额(元)：");
 	scanf("%d", &price);
 
-	printf("请输入票面：");
+	printf("请输入票面金额(元)：");
 	scanf("%d", &amount);
 
-	int chage = amount - price;
+	// 票面不够时不能找零，先判断余额
+	if (amount < price) {
+		printf("您的钱不够，还差%d元。\n", price - amount);
+		return 1;
+	}
 
-	printf("找您%d元。\n", chage);
+	change = amount - price;
+	printf("找您%d元。\n", change);
 
 	return 0;
 }
