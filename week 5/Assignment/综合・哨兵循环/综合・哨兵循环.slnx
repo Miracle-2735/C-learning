@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="综合・哨兵循环/综合・哨兵循环.vcxproj" />
+</Solution>
