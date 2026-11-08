@@ -7,16 +7,18 @@
 */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include "Book.h"
+#include "Book.h"   // main 也要包含 Book.h，才认识 struct Book 和 findMax
 
 int main()
 {
+    // 初始化 3 本书：花括号顺序要和 Book.h 里结构体字段顺序一致（title, price）
     struct Book books[3] = {
         {"C语言教程", 55.0},
         {"STM32入门", 89.5},
         {"嵌入式实战", 72.0}
     };
 
+    // findMax 的实现在 Book.c 里，编译器会自动把两个文件连起来
     struct Book max = findMax(books, 3);
     printf("最贵的书：%s，价格：%.1f\n", max.title, max.price);
 

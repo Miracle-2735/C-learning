@@ -1,17 +1,16 @@
-﻿#include "Book.h"
+﻿#include "Book.h"   // 把 Book.h 里的结构体定义和函数声明包含进来
 
-// 在这里实现函数
+// 函数实现放在 .c 里：Book.h 只负责"声明"，Book.c 负责"具体怎么干"
 struct Book findMax(struct Book books[], int n)
 {
-    // 你自己写：找price最大的那个，返回它
     int i;
-    int maxIndex = 0;
+    int maxIndex = 0;                       // 先假设第0本最贵
     for (i = 1; i < n; i++)
     {
         if (books[i].price > books[maxIndex].price)
         {
-            maxIndex = i;
+            maxIndex = i;                   // 遇到更贵的，换擂主下标
        }
     }
-    return books[maxIndex];
+    return books[maxIndex];                 // 把最贵那本书整个返回给 main
 }

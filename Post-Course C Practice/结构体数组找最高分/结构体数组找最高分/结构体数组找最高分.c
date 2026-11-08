@@ -12,16 +12,16 @@ struct Student {
     float score;
 };
 
-// 返回最高分学生的下标（int）
+// 返回最高分学生的下标（int）——这就是"打擂台"法
 int findTop(struct Student s[], int n)
 {
-    int maxIndex = 0;
-    for (int i = 1; i < n; i++) {
+    int maxIndex = 0;                       // 先假设第0个是最高分，记下它的下标
+    for (int i = 1; i < n; i++) {           // 从第1个开始逐个比
         if (s[i].score > s[maxIndex].score) {
-            maxIndex = i;
+            maxIndex = i;                   // 遇到更高的，就把擂主下标换成他
         }
     }
-    return maxIndex;   // 返回下标
+    return maxIndex;   // 返回下标，main 用下标去取这个学生的信息
 }
 
 int main(void)

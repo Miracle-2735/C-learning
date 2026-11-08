@@ -10,6 +10,8 @@ struct Point { int x; int y; };
 
 void move(struct Point* p, int dx, int dy)
 {
+	// p 是指针，用 -> 访问它指向的 Point 的成员
+	// 传的是 &p（地址），这里改 x/y，main 里的 p 真的会变
 	p->x = p->x + dx;
 	p->y = p->y + dy;
 }

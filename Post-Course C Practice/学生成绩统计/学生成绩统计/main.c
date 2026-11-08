@@ -18,6 +18,7 @@ int main(void)
 		{"柳五", 55.0},
 	};
 
+	// countPass 的实现在 Student.c 里，main 只负责准备数据并调用
 	printf("及格人数：%d\n", countPass(s,5));
 
 	return 0;

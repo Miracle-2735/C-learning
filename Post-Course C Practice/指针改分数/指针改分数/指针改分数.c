@@ -14,7 +14,8 @@ struct Student {
 
 void addScore(struct Student* s, float add)
 {
-    // 你自己写：通过指针给s的分数加add
+    // s 是指针（传进来的是 stu 的地址），用 -> 访问它指向的成员
+    // 直接改 s->score，改的就是 main 里 stu 本人的分数，函数外能看到变化
     s->score = s->score + add;
 
 }
