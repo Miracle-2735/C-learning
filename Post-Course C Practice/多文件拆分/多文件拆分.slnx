@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="多文件拆分/多文件拆分.vcxproj" Id="ac50ee57-54b7-46ea-a164-80f9565d1309" />
+</Solution>
